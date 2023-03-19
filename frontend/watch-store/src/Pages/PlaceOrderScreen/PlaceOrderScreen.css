@@ -1,0 +1,46 @@
+.PlaceOrderScreen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.order {
+    background-color: rgba(35, 168, 128, 0.911);
+}
+
+.btn-PlaceOrder {
+    background-color: chocolate;
+    color: gold;
+    width: 140px;
+    height: 39px;
+    font-size: 20px;
+    margin-top: 8px;
+    border-radius: 11px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.order-clint {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(212, 203, 116);
+    text-align: center;
+    width: 25vw;
+    font-size: 1.5rem;
+    color: seagreen;
+    border-radius: 10px;
+}
+
+.order-total{
+    color: rgb(187, 101, 221);
+    font-size: x-large;
+    background-color: rgb(122, 16, 81);
+    margin-top: 8px;
+    border-radius: 6px;
+}
+
+.edit{
+    color: rgb(145, 9, 72);
+}
